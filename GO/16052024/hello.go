@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	var nome = "Welliton"
-	var idade = 32
-	var altura = 1.70
+	var nome string = "Welliton"
+	idade := 32
+	var altura float32 = 1.70
 
 	fmt.Println("Meu nome é:", reflect.TypeOf(nome))
 	fmt.Println("Minha idade é do tipo:", reflect.TypeOf(idade))
